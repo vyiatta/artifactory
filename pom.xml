@@ -8,9 +8,11 @@
   <artifactId>firstpack</artifactId>
   <version>1.6</version>
 
-
   <distributionManagement>
-    <!--Write code here-->
+    <repository>
+      <id>github</id>
+      <url>https://maven.pkg.github.com/vyiatta/artifactory</url>
+    </repository>
   </distributionManagement>
 
   <properties>
